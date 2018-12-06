@@ -12,7 +12,6 @@
 
 (defn maybe-children
   "If path is a directory, return the names of its children as a seq.
-  Add metadata so that 'nav' will look up the underlying Path object from the name.
   Otherwise return nil."
   [path]
   (try
