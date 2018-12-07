@@ -50,8 +50,8 @@ The code creates a sequence of `Path` objects as before, then a
 matching sequence of filenames. Navigable is a special protocol in
 that it can be implemented by metadata on an object. An implementation
 of nav is set on the sequence of filenames, which, when called,
-returns the corresponding `Path`. In other words, it is defined like
-(where `paths` is closed over from the surrounding scope.)
+returns the corresponding `Path`. In other words, it is defined as
+follows: (where `paths` is closed over from the surrounding scope.)
 
     (defn nav [context index value] (get paths index))
 	
