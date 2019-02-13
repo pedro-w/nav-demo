@@ -17,7 +17,7 @@ files.
 
 The easiest way to try this out is by using
 [REBL](http://rebl.cognitect.com/). First, edit `deps.edn` and set the
-path to your REBL jar.
+path to your REBL jar. Then, start up Clojure.
 
     clj -R:rebl --main cognitect.rebl
 
