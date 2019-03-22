@@ -1,8 +1,6 @@
 Clojure 1.10 datafy/nav demo
 ============================
 
-[![Join the chat at https://gitter.im/nav-demo/community](https://badges.gitter.im/nav-demo/community.svg)](https://gitter.im/nav-demo/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 This is a very simple demonstration of clojure 1.10's new Datafiable
 and Navigable protocols, written to aid my own understanding, after
 reading Sean Corfield's [blog
